@@ -1,0 +1,10 @@
+create database ReealoDB2019;
+use ReealoDB2019;
+create table productos (
+ codProd char(4) primary key,
+ descripcion varchar(30) not null,
+ detalle varchar(300) not null,
+ stock int not null,
+ precio numeric (8,2) not null,
+ imagen varchar (30) not null
+);
